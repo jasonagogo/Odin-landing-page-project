@@ -5,4 +5,4 @@ done it should be published to my git repository.
 
 It needs to be created using html and styled using CSS.
 
-Image ref:
+Image ref: Neo-Osaka Club digital collectibles
