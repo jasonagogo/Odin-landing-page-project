@@ -57,6 +57,8 @@ body {
 
 .subtext {
   padding-bottom: 8px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 
@@ -94,6 +96,8 @@ body {
   align-items: center;
   font-size: 36px;
   font-weight: 900;
+  padding: 36px;
+  color: #1F2937;
 }
 
 .nocnodes {
@@ -106,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 8px;
-  width: 260px;
+  width: 256px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -115,6 +119,60 @@ body {
 .chappie > img,.suzume > img,.noriko > img,.haruto > img {
   border: 2px solid #3882f6;
   border-radius: 16px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.testimonials {
+  display: flex;
+  background-color: lightgray;
+  color: #1F2937;
+  padding: 128px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  background-color: lightgray;
+  color: #1F2937;
+  padding: 64px 128px 0 128px;
+}
+
+.attribution {
+  text-align: end;
+  font-weight: bold;
+  background-color: lightgray;
+  color: #1F2937;
+  padding-right: 128px;
+  padding-bottom: 64px;
+}
+
+.call {
+  display: flex;
+  margin: 128px;
+  padding: 24px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 100;
+  justify-content: space-around;
+}
+
+.sub {
+  font-weight: 900;
+}
+
+.actionbutton {
+  align-self: center;
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 8px;
+  height: fit-content;
+  padding: 2px 8px 2px 8px;
 }
 
 .footer {
